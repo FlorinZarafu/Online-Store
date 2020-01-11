@@ -1,0 +1,269 @@
+/* font family Open-Sans */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap");
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.04rem;
+  font-size: 65%;
+}
+/* START GENERAL STYLES */
+p,
+ul,
+h1,
+h2,
+h3,
+span,
+i {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+li {
+  list-style: none;
+}
+p {
+  font-size: 1rem;
+}
+/* Start Link Style */
+.medium-link {
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: #333;
+}
+.medium-link:hover {
+  background: linear-gradient(to right, #f46b45, #eea849);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.big-link {
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 1rem;
+  padding: 0.3rem 0.5rem;
+  text-decoration: none;
+}
+.big-link:hover {
+  transition: 0.3s;
+  border: 0.5px solid #fff;
+  text-decoration: none;
+  color: #fff;
+}
+/* End Link Style */
+/* Start List Style */
+.list {
+  padding: 0.2rem;
+}
+.big-list {
+  padding: 0.3rem 0;
+  list-style: none;
+}
+/* End List Style */
+/* Start Style For Font-Awesome Icons */
+.big-icon {
+  font-size: 1.5rem;
+}
+.medium-icon {
+  font-size: 1rem;
+}
+.small-icon {
+  font-size: 0.6rem;
+}
+/* End Style For Font-Awesome Icons */
+/* Start Style For Gradient Color Text */
+.text-clipped {
+  background: linear-gradient(to right, #f46b45, #eea849);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* End Style For Gradient Color Text */
+/* Custom Border */
+.custom-border {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #ddd;
+}
+.custom-border::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #f46b45, #eea849);
+}
+/* End Custom Border */
+/* END GENERAL STYLES */
+/* Start Free Shipping Styles */
+.free-shipping {
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  padding: 0.5rem;
+}
+.free-shipping span {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+/* End Free Shipping Styles */
+/* Start Style For Logo */
+.logo {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+/* End Style For Logo */
+/* Start Style For Search-bar */
+.search-form {
+  position: relative;
+}
+.search-form input {
+  width: 100%;
+  margin: 0;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #f46b45;
+}
+.search-form input:focus {
+  outline: none;
+}
+.search-form input::placeholder {
+  color: #ddd;
+  font-size: 0.8rem;
+}
+.search-form input[type="text"] {
+  padding: 0px 1.6rem;
+  color: #666;
+  font-size: 0.8rem;
+}
+.search-form button {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+}
+.search-form button:hover {
+  background-color: rgba(240, 143, 71, 0.2);
+}
+/* End Style For Search-bar */
+/* Start User Icon Style */
+.top-icons p {
+  font-size: 0.7rem;
+  margin-left: 0.3rem !important;
+}
+.cart {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: -0.6rem;
+  right: -0.6rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  background: #f46b45;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 100%;
+}
+/* styles for dropdown-list */
+.dropdown-list {
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  transform: translateY(20px);
+  transition: transform 0.5s ease;
+  pointer-events: none;
+  z-index: 999;
+  background: #fff;
+  border-top: 2px solid #f46b45;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem;
+}
+.drop:hover .dropdown-list {
+  opacity: 1;
+  transform: translateY(0px);
+  pointer-events: all;
+}
+/* End User Icon Style */
+/* Start Main Nav Style */
+.main-navbar {
+  width: 100%;
+  background: linear-gradient(to right, #f46b45, #eea849);
+}
+.categories {
+  background: #333;
+  padding: 0.3rem 0;
+  color: #fff;
+}
+/* End Main Nav Style */
+/* Start Side Nav Style Mobile */
+.categories-nav {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background: #fff;
+  z-index: 2;
+}
+.category-sub-link {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+}
+.close-mobile-nav-sublink {
+  width: 100%;
+}
+/* End Side Nav Style Mobile */
+/* Start Medium Screen */
+@media (min-width: 768px) {
+  /* Start Side Nav */
+  .medium-link {
+    font-size: 0.9rem;
+  }
+  .side-nav-list {
+    position: relative;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .categories-nav {
+    position: initial;
+    left: initial;
+  }
+  .category-sub-link {
+    background: #fff;
+    position: absolute;
+    height: initial;
+    left: initial;
+    width: 450px;
+    top: 0;
+    right: -500px;
+    padding: 1rem;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .side-links:hover .category-sub-link {
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateX(-50px);
+    pointer-events: all;
+  }
+  /* End Side Nav */
+}
+/* End Medium Screen */
