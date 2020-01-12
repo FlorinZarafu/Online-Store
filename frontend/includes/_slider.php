@@ -7,18 +7,21 @@
 <div class="slide slide1">
     <div class="slide-content">
         <img class="m-0 p-0 img-fluid w-100" src="./frontend/images/slide-1.jpeg" alt="" />
-        <span class="text-content text-clipped">Best Offers</span>
+        <div class="slider-content">
+            <span class="text-content text-clipped">Best Offers</span>
+            <a href="#" class="custom-btn">see deal</a>
+        </div>
     </div>
 </div>
 <div class="slide slide2">
     <div class="slide-content">
         <img class="m-0 p-0 img-fluid w-100" src="./frontend/images/slide-1.jpeg" alt="" />
-        <span class="text-content">Best Products</span>
+        <span class="text-content text-clipped">Best Products</span>
     </div>
 </div>
 <div class="slide slide3">
     <div class="slide-content">
         <img class="m-0 p-0 img-fluid w-100" src="./frontend/images/slide-1.jpeg" alt="" />
-        <span class="text-content">Great Services</span>
+        <span class="text-content text-clipped">Great Services</span>
     </div>
 </div>
