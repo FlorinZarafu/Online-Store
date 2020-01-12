@@ -42,12 +42,69 @@
     </div>
 </section>
 <!-- End Side Navigation -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 bg-dark">p</div>
+<!-- start Services Section -->
+<section class="services">
+    <div class="container my-5">
+        <div class="row text-center">
+            <?php include "./frontend/includes/_services.php"; ?>
         </div>
     </div>
 </section>
+<!-- End Services Section -->
+<!-- Start Latest Products -->
+<section>
+    <div class="container">
+        <?php include "./frontend/includes/_latest-products.php"; ?>
+    </div>
+</section>
+<!-- End Latest Products -->
+<!-- Start Daily Offer -->
+<section>
+    <div class="container">
+        <?php include "./frontend/includes/_daily-offer.php"; ?>
+    </div>
+</section>
+<!-- End Daily Offer -->
+<!-- Start Collection Offer -->
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <?php include "./frontend/includes/_new-collection.php"; ?>
+        </div>
+    </div>
+</section>
+<!-- End Collection Offer -->
+<!-- Start Picked For You -->
+<section>
+    <div class="container">
+        <?php include "./frontend/includes/_picked-products.php"; ?>
+    </div>
+</section>
+<!-- End End Picked For You -->
+<!-- Start Newsletter -->
+<section class="newsletter my-3">
+    <div class="container">
+        <div class="row">
+            <?php include "./frontend/includes/_newsletter.php"; ?>
+        </div>
+    </div>
+</section>
+<!-- End Newsletter -->
+<!-- Start Returns Products-->
+<section>
+    <div class="container">
+        <?php include "./frontend/includes/_returns.php"; ?>
+    </div>
+</section>
+<!-- End Returns Products -->
+<!-- Start Footer -->
+<footer class="footer pt-5">
+    <div class="container">
+        <div class="row">
+            <?php include "./frontend/includes/_footer.php"; ?>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
 <!-- Js Scripts -->
 <?php include "./frontend/includes/_js-scripts.php"; ?>
