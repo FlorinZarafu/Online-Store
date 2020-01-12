@@ -1,6 +1,6 @@
     <!-- javascript links -->
-    <script src="./frontend/js/mobile-nav.js"></script>
-    <!-- <script src="./js/slider.js"></script> -->
+    <script src="./frontend/js/mobileNav.js"></script>
+    <script src="./frontend/js/slider.js"></script>
     </body>
 
     </html>

@@ -35,13 +35,19 @@
             <div class="col-12 col-md-4 col-lg-3 categories-nav p-0 d-md-block">
                 <?php include "./frontend/includes/nav/_side-nav.php"; ?>
             </div>
-            <div class="col-12 col-md-8 col-lg-9 bg-dark">
-                <p>a</p>
+            <div class="col-12 col-md-8 col-lg-9 p-0  bg-danger">
+                <?php include "./frontend/includes/_slider.php" ?>
             </div>
         </div>
     </div>
 </section>
 <!-- End Side Navigation -->
-
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 bg-dark">p</div>
+        </div>
+    </div>
+</section>
 <!-- Js Scripts -->
 <?php include "./frontend/includes/_js-scripts.php"; ?>

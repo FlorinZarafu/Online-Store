@@ -69,7 +69,7 @@
     </div>
     <!-- mobile nav icon -->
     <div class="d-flex align-items-center justify-content-center mobile-icon">
-        <i class="fa fa-align-justify big-icon text-clipped d-block d-lg-none"></i>
+        <i class="fa fa-align-justify big-icon text-clipped d-block d-md-none"></i>
     </div>
 </div>
 <!-- end user && account info -->
