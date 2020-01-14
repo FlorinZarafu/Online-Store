@@ -42,7 +42,7 @@
     </div>
 </section>
 <!-- End Side Navigation -->
-<!-- start Services Section -->
+<!-- Start Services Section -->
 <section class="services">
     <div class="container my-5">
         <div class="row text-center">

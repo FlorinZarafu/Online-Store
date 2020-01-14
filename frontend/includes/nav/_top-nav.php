@@ -27,11 +27,11 @@
             <ul>
                 <li class="d-flex justify-content-between align-items-center list">
                     <i class="fas fa-lock medium-icon text-clipped"></i>
-                    <a class="medium-link pl-1" href="login.php">Your Account</a>
+                    <a class="medium-link pl-1" href="./frontend/pages/login.php">Your Account</a>
                 </li>
                 <li class="d-flex justify-content-between align-items-center list">
                     <i class="fas fa-user-plus medium-icon text-clipped"></i>
-                    <a class="medium-link pl-1" href="register.php">New Account</a>
+                    <a class="medium-link pl-1" href="./frontend/pages/register.php">New Account</a>
                 </li>
             </ul>
         </div>
@@ -58,7 +58,7 @@
             <ul>
                 <li class="d-flex justify-content-between align-items-center list">
                     <i class="fas fa-shopping-cart text-clipped medium-icon"></i>
-                    <a class="medium-link pl-1" href="login.php">View cart</a>
+                    <a class="medium-link pl-1" href="./frontend/pages/cart.php">View cart</a>
                 </li>
                 <li class="d-flex justify-content-between align-items-center list">
                     <i class="fas fa-cart-arrow-down text-clipped medium-icon"></i>

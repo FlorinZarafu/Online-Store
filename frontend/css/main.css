@@ -158,7 +158,7 @@ p {
 /* End Free Shipping Styles */
 /* Start Style For Logo */
 .logo {
-  font-size: 2.5em;
+  font-size: 2rem;
   font-weight: 800;
 }
 /* End Style For Logo */
@@ -577,6 +577,9 @@ p {
 /* End Medium Screen */
 /* Start Large Screen */
 @media (min-width: 992px) {
+  .logo {
+    font-size: 1.8rem;
+  }
   /* Start Slider */
   .btn-left,
   .btn-right {
@@ -607,3 +610,8 @@ p {
   /* End NewsLetter Style */
 }
 /* End Large Screen */
+@media (min-width: 1200px) {
+  .logo {
+    font-size: 2.3rem;
+  }
+}
