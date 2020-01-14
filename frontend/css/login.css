@@ -1,0 +1,94 @@
+.login {
+  width: 100%;
+  height: 70vh;
+}
+.register {
+  width: 100%;
+  height: 100vh;
+}
+.form-logo {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.form {
+  width: 100%;
+}
+form {
+  width: 100%;
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0px 22px 35px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+}
+.form h2 {
+  color: #ddd;
+  font-size: 1.5rem;
+}
+form input {
+  width: 100%;
+  margin: 0.7rem 0;
+  height: 3rem;
+  border-radius: 0.3rem;
+  border: none;
+  background: #e8f0fe;
+}
+input:focus {
+  outline: none;
+}
+form input::placeholder {
+  color: #ddd;
+  font-size: 0.7rem;
+}
+form input[type="email"],
+form input[type="password"],
+form input[type="text"],
+form input[type="tel"] {
+  padding: 0 1rem;
+  color: #333;
+  font-size: 0.8rem;
+}
+.login-btn {
+  background: linear-gradient(to right, #f46b45, #eea849);
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.login-btn:hover {
+  transition: 0.3s;
+  background: #333;
+}
+.useful-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.forgot-password,
+.create-account {
+  color: #ddd;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.forgot-password:hover,
+.create-account:hover {
+  color: #f46b45;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  form {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  form {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  form {
+    width: 40%;
+  }
+}
